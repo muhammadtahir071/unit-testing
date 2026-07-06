@@ -1,0 +1,6 @@
+node_modules/
+target/
+sa-key.json
+coverage/
+test-report/
+.nyc_output/

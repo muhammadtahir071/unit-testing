@@ -1,0 +1,39 @@
+{
+  "name": "mocha-tests-demo",
+  "version": "1.0.0",
+  "description": "a demo for running mocha tests",
+  "scripts": {
+    "test": "mocha test/unit/test.js test/unit/test1.js --reporter mochawesome --reporter-options reportDir=test-report,reportFilename=unit-test-report",
+    "coverage": "nyc --reporter=html --reporter=text --report-dir=coverage npm test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apickli": "latest",
+    "is-my-json-valid": "^2",
+    "JSONPath": "^0",
+    "path": "^0",
+    "prettyjson": "^1",
+    "request": "^2",
+    "swagger-tools": "^0",
+    "xmldom": ">=0.5.0",
+    "xpath.js": "^1"
+  },
+  "devDependencies": {
+    "argv": "^0",
+    "chai": "^4.1.2",
+    "cucumber": "^5",
+    "cucumber-html-reporter": "^4",
+    "eslint": "^5",
+    "eslint-config-google": "^0",
+    "expect.js": "*",
+    "fs-extra": "^7",
+    "mocha": "^11.7.6",
+    "mocha-junit-reporter": "^2.0.0",
+    "mocha-xunit-reporter": "^1.1.0",
+    "mochawesome": "^7.1.4",
+    "nyc": "^14.1.1",
+    "rewire": "*",
+    "sinon": "*"
+  }
+}
